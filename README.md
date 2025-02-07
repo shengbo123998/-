@@ -11,3 +11,5 @@ A DEEP PROBABILISTIC MODEL FOR CUSTOMER LIFETIME VALUE PREDICTION： https://arx
 在交叉熵的基础上，加个Combined-pair loss :https://zhuanlan.zhihu.com/p/10542978888
 
 在线auc跟离线auc的区别是，在线auc只用桶内的数据，即A模型打分，用的A模型的label. 而离线auc是算所有样本的auc, 即A模型打分，但是AABB模型的label。
+
+pcoc计算： https://blog.csdn.net/pearl8899/article/details/138874217
