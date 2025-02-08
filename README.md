@@ -14,7 +14,7 @@ A DEEP PROBABILISTIC MODEL FOR CUSTOMER LIFETIME VALUE PREDICTION： https://arx
 
 pcoc计算： https://blog.csdn.net/pearl8899/article/details/138874217
 
-抖音时钟兴趣，流式训练的用户时间级兴趣建模：https://arxiv.org/pdf/2404.19357。  计算用户在情绪、流派、语言等，小时级等得分，选出用户感兴趣的情绪、流派、语言等。
+抖音时钟兴趣，流式训练的用户时间级兴趣建模：https://arxiv.org/pdf/2404.19357。  计算用户在情绪、流派、语言等，小时级等得分，选出用户感兴趣的情绪、流派、语言等。建模高斯分布，因为用户兴趣变化是连续的，不可能是突变的。
 
 
 
