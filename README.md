@@ -13,3 +13,10 @@ A DEEP PROBABILISTIC MODEL FOR CUSTOMER LIFETIME VALUE PREDICTION： https://arx
 在线auc跟离线auc的区别是，在线auc只用桶内的数据，即A模型打分，用的A模型的label. 而离线auc是算所有样本的auc, 即A模型打分，但是AABB模型的label。
 
 pcoc计算： https://blog.csdn.net/pearl8899/article/details/138874217
+
+抖音时钟兴趣，流式训练的用户时间级兴趣建模：https://arxiv.org/pdf/2404.19357。  计算用户在情绪、流派、语言等，小时级等得分，选出用户感兴趣的情绪、流派、语言等。
+
+
+
+
+踩坑记录：  不要随意下线基线模型的特征，一方面是这些特征训练很久了，下线会导致模型泛化性不足。一方面是数据打分分布差异变大，影响其他模型比如重排。
