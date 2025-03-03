@@ -1,0 +1,7 @@
+youtube DNN : https://zhuanlan.zhihu.com/p/372238343
+
+消偏：论文通过引入 example age 这个特征来捕捉视频的生命周期，效果见上图红色曲线。example age 定义为 tmax-t ，其中   为训练数据中所有样本时间的最大值，  为当前样本时间。既然训练数据样本量巨大，  就近似等于选取的训练数据所在的时间段的右端点时间。线上预测时，直接把 example age 全都设为0或一个小的负值即可，不依赖于各个视频的上传时间。
+
+加入这种时间bias的传统方法是使用video age，也即一个video从上传到样本的时间跨度。
+
+对于给定视频，可以使用下图理解video age 和 example age 的差异：
