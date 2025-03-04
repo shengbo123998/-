@@ -38,3 +38,9 @@ cal-N将样本集合按照自定义规则划分出多个簇分别计算PCOC，�
 
 
 https://zhuanlan.zhihu.com/p/460061332
+
+
+重点理解这句话：正负样本不均衡的情况下，负采样通常可以提升模型的AUC精度，但是pctr值会发生变化，与真实ctr差距扩大。 多国家多场景cvr建模中，不同国家不同场景的后验cvr是不一样的，如果没有加入消偏，pcvr值会趋近于所有国家所有场景的真实cvr值，但是没有对不同国家不同场景做区分。
+
+![image](https://github.com/user-attachments/assets/4d30402f-f673-4ba2-a59e-ab27199a12ef)
+
