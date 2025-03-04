@@ -35,3 +35,6 @@ calibration-N(cal-N)
 cal-N将样本集合按照自定义规则划分出多个簇分别计算PCOC，并计算与1的偏差作为标准误差。举个例子，将pctr根据值大小划分为多个桶，每个桶为一个簇，计算每个簇的PCOC及其与1的偏差 数学公式:
 
 ![image](https://github.com/user-attachments/assets/ba6eba07-1cb9-4f52-947a-e667821d4c13)
+
+
+https://zhuanlan.zhihu.com/p/460061332
